@@ -38,6 +38,12 @@
 
     For all numbers between 100 and 100000 test that number for whether it is prime or a perfect square. If it is a prime number, print "Foo". If it is a perfect square, print "Bar". If it is neither, print "FooBar". Do not use the python math library for this exercise. For example, if the number you are evaluating is 25, you will have to figure out if it is a perfect square. It is, so print "Bar".
 
+        PRIME: Any integer other than 0 or ± 1 that is not divisible without remainder by any other integers except ± 1 and ± the integer itself.
+            101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197, 199.
+
+        SQUARE: When a number or integer (not a fraction) is multiplied by itself, the resultant is called a 'Square Number'. For example, 3 multiplied by 3 is equal to 3-squared or 3 x 3 = 32. So, basically, the exponential form of multiplication of a number or integer by itself is called a square number.
+            121, 144, 169 and 196
+
     This assignment is extra challenging! Try pair programming and pulling up a whiteboard.
 
 # Fourth 
