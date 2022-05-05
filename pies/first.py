@@ -18,6 +18,9 @@ lists = [
 [6,1,2,3,4,5],
 [6,1,2,3,4,5],
 
+[7,'celery','carrots','bread','milk'],
+[7,'celery','carrots','bread','milk'],
+
 ]
 
 def forloops ():
@@ -29,7 +32,8 @@ def forloops ():
         
         elif len(lists[i]) != len(lists[i + 1]):
             print("not same length", lists[i + 1], " as ", lists[i])
-            i = i + 1
+            # i = i + 1
+            # break
 
         else:
             print("comparing lists ", lists[i], " and ", lists[i+1])
@@ -38,7 +42,7 @@ def forloops ():
 
                 if lists[i][j] != lists[i+1][j]:
                     print("lists are not the same.")
-                    i = i + 1
+                    # i = i + 1
                     break
                 
             else:
